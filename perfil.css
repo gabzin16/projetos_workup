@@ -14,28 +14,18 @@
 
   /* Corpo da pagina */
   .profile-container {
-    max-width: 600px;
+    width: 700px;
+    height: 350px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #F7EEE9;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: black;
 }
 
-h1 {
-    color: #333;
-}
-
-.profile-info, .profile-edit {
-    margin-bottom: 20px;
-}
-
-.profile-info p, .profile-edit label {
-    margin: 10px 0;
-}
 
 input[type="text"], input[type="email"], textarea {
-    width: 100%;
+    width: 200px;
     height: 20px;
     padding: 8px;
     margin-bottom: 10px;
@@ -67,3 +57,6 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
 }
 
+.profile-edit {
+    align-items: center;
+}
