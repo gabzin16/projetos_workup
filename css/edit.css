@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #F7EEE9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alter-foto-btn {
+    display: block;
+    width: 120px;
+    margin: 10px auto;
+    padding: 8px;
+    background-color: #ffd54f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.info-card {
+    background-color: #faf3e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+.info-item {
+    margin-bottom: 10px;
+}
+.info-label {
+    font-weight: bold;
+}
+.info-value {
+    background-color: #ffd54f;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.curriculum {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.edit-btn {
+    display: block;
+    width: 100px;
+    margin: 20px auto 0;
+    padding: 8px;
+    background-color: #ffd54f;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

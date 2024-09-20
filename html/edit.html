@@ -3,42 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tentativa.css">
+    <link rel="stylesheet" href="/css/edit.css">
     <title>Document</title>
 </head>
 <body>
+
     <div class="profile-pic"></div>
+
     <!-- <button class="alter-foto-btn">Alterar foto</button> -->
     <input class="alter-foto-btn" type="file" id="photo" name="photo" accept="image/*">
     
     <div class="info-card">
         <div class="info-item">
             <span class="info-label">Nome:</span>
-            <span class="info-value">Afonso</span>
+            <input type="text" id="nome" name="nome" value="" required>
         </div>
         <div class="info-item">
             <span class="info-label">Sobrenome:</span>
-            <span class="info-value">Budaigo</span>
+            <input type="text" id="sobrenome" name="sobrenome" value="" required>
         </div>
         <div class="info-item">
             <span class="info-label">Telefone:</span>
-            <span class="info-value">(11) 9 4002-8922</span>
+            <input type="text" id="telefone" name="telefone" value="" required>
         </div>
         <div class="info-item">
             <span class="info-label">E-mail:</span>
-            <span class="info-value">ABuds99@gmail.com</span>
+            <input type="text" id="email" name="email" value="" required>
         </div>
         <div class="info-item">
             <span class="info-label">Data de Nascimento:</span>
-            <span class="info-value">11/11/1911</span>
+            <input type="date" id="dataNascimento" name="dataNascimento" value="" required>
         </div>
         <div class="info-item">
             <span class="info-label">Sexo:</span>
-            <span class="info-value">Masculino</span>
+            <select id="sexo" name="sexo" required>
+                <option value="Masculino" >Masculino</option>
+                <option value="Feminino" >Feminino</option>
+                <option value="Nao-Binario" >Não-Binario</option>
+            </select>
         </div>
         <div class="info-item">
             <span class="info-label">Endereço:</span>
-            <span class="info-value">Rua barros de Barr...</span>
+            <input type="text" id="endereco" name="endereco" value="" required>
         </div>
         
         <div class="info-item">
@@ -48,11 +54,19 @@
         
         <div class="info-item">
             <span class="info-label">Área de atuação:</span>
-            <span class="info-value">Padeiro</span>
+            <input type="text" id="atuacao" name="atuacao" value="" required>
+        </div>
+
+        <div class="info-item">
+            <span class="info-label">Perfil:</span>
+            <select name="perfil" id="perfil">
+                <option value="empregador">Empregador</option>
+                <option value="empregado">Empregado</option>
+            </select>
         </div>
     </div>
     
-    <button class="edit-btn">Editar</button>
+    <button class="edit-btn">Salvar</button>
 </div>
 </body>
 </html>
